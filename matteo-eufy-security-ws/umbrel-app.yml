@@ -1,5 +1,13 @@
+id: eufy-security-ws
 name: eufy-security-ws
 description: Eufy Security Web Socket. Edit container and add username & password.
 icon: https://github.com/bropat/eufy-security-ws/raw/master/docs/_media/eufy-security-ws.png
 developer: Umbrel Community
-support: No support URL provided
+support: https://github.com/bropat/eufy-security-ws/issues
+version: "1.0.0"
+port: 3993
+category: Utilities
+author: Umbrel Community
+repository: https://github.com/bropat/eufy-security-ws
+releaseNotes: |
+  Initial release of Eufy Security Web Socket for Umbrel.
