@@ -1,5 +1,3 @@
-version: "3.7"
-
 services:
   app_proxy:
     environment:
@@ -11,7 +9,5 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
-    environment:
-      # Add any required environment variables here
-    volumes:
+    # volumes:
       # Uncomment and configure if persistent storage is needed
