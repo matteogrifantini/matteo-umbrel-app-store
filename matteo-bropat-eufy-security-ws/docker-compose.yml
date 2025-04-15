@@ -7,7 +7,5 @@ services:
   server:
     image: bropat/eufy-security-ws:latest
     restart: unless-stopped
-    ports:
-      - "3000:3000"
     # volumes:
       # Uncomment and configure if persistent storage is needed
