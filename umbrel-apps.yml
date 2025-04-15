@@ -1,0 +1,3 @@
+apps:
+  - id: eufy-security-ws
+    dir: matteo-eufy-security-ws
