@@ -1,5 +1,7 @@
 apps:
-  - id: eufy-security-ws
+  - id: matteo-eufy-security-ws
     dir: matteo-eufy-security-ws
   - id: matteo-hello-world
     dir: matteo-hello-world
+  - id: matteo-bropat-eufy-security-ws
+    dir: matteo-bropat-eufy-security-ws
