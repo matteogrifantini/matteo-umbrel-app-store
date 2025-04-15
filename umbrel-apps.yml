@@ -1,3 +1,5 @@
 apps:
   - id: eufy-security-ws
     dir: matteo-eufy-security-ws
+  - id: matteo-hello-world
+    dir: matteo-hello-world

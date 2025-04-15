@@ -1,5 +1,12 @@
+version: "3.7"
+
 services:
-  eufy-security-ws:
+  app_proxy:
+    environment:
+      APP_HOST: matteo-eufy-security-ws_server_1
+      APP_PORT: 3000
+
+  server:
     image: bropat/eufy-security-ws:latest
     ports:
       - "3993:3000/tcp"
