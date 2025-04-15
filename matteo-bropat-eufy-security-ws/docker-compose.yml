@@ -7,5 +7,11 @@ services:
   server:
     image: bropat/eufy-security-ws:latest
     restart: unless-stopped
+    environment:
+      USERNAME: ${USERNAME}
+      PASSWORD: ${PASSWORD}
+      COUNTRY: ${COUNTRY}
+      LANGUAGE: ${LANGUAGE}
+      # Altre variabili opzionali come 2FA_CODE, TRUST_TOKEN, ecc.
     # volumes:
       # Uncomment and configure if persistent storage is needed
