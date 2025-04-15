@@ -1,3 +1,5 @@
+version: "3.7"
+
 services:
   app_proxy:
     environment:
@@ -12,6 +14,7 @@ services:
       PASSWORD: ${PASSWORD}
       COUNTRY: ${COUNTRY}
       LANGUAGE: ${LANGUAGE}
-      # Altre variabili opzionali come 2FA_CODE, TRUST_TOKEN, ecc.
+      # 2FA_CODE: opzionale
+      # TRUST_TOKEN: opzionale
     # volumes:
       # Uncomment and configure if persistent storage is needed
